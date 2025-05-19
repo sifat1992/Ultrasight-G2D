@@ -35,7 +35,7 @@ This project explores the integration of learnable 2D Gaussian filters with stan
 
 <p align="center">
   <img src="assets/4.jpg" width="250" />
-  <img src="assets/5.jpg" width="250" />
+  <img src="assets/5.jpg" width="250" />s
 </p>
 
 📊 Results – Model Performance Summary
