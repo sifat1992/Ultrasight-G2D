@@ -96,13 +96,33 @@ Classification Report
 ├── README.md                       # Reading this!
 ```
 
-References:
-```
-[1] G. Huang, Z. Liu, L. Van Der Maaten, and K. Weinberger, “Densely Connected Convolutional Networks,” Jan. 2018. Available: https://arxiv.org/pdf/1608.06993
-[2] K. Simonyan and A. Zisserman, “VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION,” Apr. 2015. Available: https://arxiv.org/pdf/1409.1556
-[3] K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” arXiv.org, Dec. 10, 2015. https://arxiv.org/abs/1512.03385
-[4] S. Biswas, Cemre Omer Ayna, and A. C. Gurbuz, “PLFNets: Interpretable Complex Valued Parameterized Learnable Filters for Computationally Efficient RF Classification,” IEEE Transactions on Radar Systems, pp. 1–1, Jan. 2024, doi: https://doi.org/10.1109/trs.2024.3486183.
-[5} “Papers with Code - ImageNet Classification with Deep Convolutional Neural Networks,” paperswithcode.com. https://paperswithcode.com/paper/imagenet-classification-with-deep
-[6] A. Persson, “Aladdin Persson,” YouTube. https://www.youtube.com/@AladdinPersson (accessed May 19, 2025).
-```
+## 📚 References
+
+1. Huang, G., Liu, Z., Van Der Maaten, L., & Weinberger, K.  
+   “Densely Connected Convolutional Networks.” [arXiv:1608.06993](https://arxiv.org/pdf/1608.06993)
+
+2. Simonyan, K., & Zisserman, A.  
+   “Very Deep Convolutional Networks for Large-Scale Image Recognition.” [arXiv:1409.1556](https://arxiv.org/pdf/1409.1556)
+
+3. He, K., Zhang, X., Ren, S., & Sun, J.  
+   “Deep Residual Learning for Image Recognition.” [arXiv:1512.03385](https://arxiv.org/pdf/1512.03385)
+
+4. Biswas, S., Ayna, C. O., & Gurbuz, A. C.  
+   “PLFNets: Interpretable Complex Valued Parameterized Filters...” [IEEE Paper](https://doi.org/10.1109/trs.2024.3486183)
+
+5. Papers with Code  
+   “ImageNet Classification with Deep CNNs.” [Link](https://paperswithcode.com/paper/imagenet-classification-with-deep)
+
+6. Persson, A.  
+   “Aladdin Persson - YouTube.” [YouTube](https://www.youtube.com/@AladdinPersson)
+
+---
+
+## 💡 Notes
+
+- This is my **first GitHub repository**, so **feedback and suggestions are welcome**!  
+- Results may slightly vary between runs due to **shuffling in the training set** — randomness can affect performance metrics.
+
+Thanks for checking out my work! 🌱
+
 
