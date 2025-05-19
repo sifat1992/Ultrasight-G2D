@@ -25,15 +25,21 @@ This project explores the integration of learnable 2D Gaussian filters with stan
 - Custom curated ultrasound dataset (preprocessed and balanced).
 - Not publicly available due to sensitivity and privacy constraints.
 - Contact for access if needed for research collaboration.
-- ## 📸 Sample Images
+## 🖼️ Sample Ultrasound Images
 
-### Healthy Image Example
-![Healthy Sample](assets/1.jpg)
+<p align="center">
+  <img src="assets/sample1.jpg" width="250" />
+  <img src="assets/sample2.jpg" width="250" />
+  <img src="assets/sample3.jpg" width="250" />
+</p>
 
-### Abnormal Image Example
-![Abnormal Sample](assets/1.jpg)
+<p align="center">
+  <img src="assets/sample4.jpg" width="250" />
+  <img src="assets/sample5.jpg" width="250" />
+</p>
 
 📊 Results – Model Performance Summary
+
 🧠 AlexNet
 Accuracy Log
 Classification Report
