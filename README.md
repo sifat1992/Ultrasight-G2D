@@ -59,6 +59,9 @@ Accuracy Log
 Classification Report
 
 
+<pre> ## 📁 Project Structure <code> assets/ # Folder containing sample dataset images ├── healthy_example1.png ├── abnormal_example1.png ├── Results/ # Folder containing images of results │ ├── alexnet_acc.png │ ├── alexnet_class.png │ ├── custom_cnn_acc.png │ ├── custom_cnn_class.png │ ├── dense_acc.png │ ├── dense_class.png │ ├── gauss_acc.png │ ├── gauss_class.png │ ├── res_acc.png │ ├── res_class.png │ ├── vgg_acc.png │ ├── vgg_class.png alexnet.py # Training and evaluation using AlexNet dense-121.py # Training and evaluation using DenseNet121 resnet50_paper_fif.py # Training and evaluation using ResNet50 vgg_16_PAPER_fif.py # Training and evaluation using VGG16 custom_cnn_paper_fif.py # Training and evaluation of custom CNN gauss_final.py # Custom CNN with Learnable 2D Gaussian layer gaussiand2D_layer_pytorch.py # Script defining the learnable 2D Gaussian layer create_dataset.py # Dataset loading and preprocessing requirements.txt # Required Python dependencies .gitignore # Specifies files and folders to be ignored by Git README.md # You're reading this! </code> </pre>
+
+
 ## 📂 Project Structure
 ├── assets/                         # Folder containing sample dataset images
 │   ├── healthy_example1.png
