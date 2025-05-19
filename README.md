@@ -28,10 +28,10 @@ This project explores the integration of learnable 2D Gaussian filters with stan
 - ## 📸 Sample Images
 
 ### Healthy Image Example
-![Healthy Sample](assets/healthy_example1.png)
+![Healthy Sample](assets/1.jpg)
 
 ### Abnormal Image Example
-![Abnormal Sample](assets/abnormal_example1.png)
+![Abnormal Sample](assets/1.jpg)
 
 📊 Results – Model Performance Summary
 🧠 AlexNet
