@@ -41,28 +41,29 @@ This project explores the integration of learnable 2D Gaussian filters with stan
 📊 Results – Model Performance Summary
 
 🧠 AlexNet
-Accuracy Log
+Accuracy Log,
 Classification Report
 
 🧠 Custom CNN
-Accuracy Log
+Accuracy Log,
 Classification Report
 
 🧠 DenseNet121
-Accuracy Log
+Accuracy Log,
 Classification Report
 
 🧠 GaussNet (Custom CNN + Learnable 2D Gaussian)
-Accuracy Log
+Accuracy Log,
 Classification Report
 
 🧠 ResNet50
-Accuracy Log
+Accuracy Log,
 Classification Report
 
 🧠 VGG16
-Accuracy Log
+Accuracy Log,
 Classification Report
+
 ## 📁 Project Structure
 
 ```
