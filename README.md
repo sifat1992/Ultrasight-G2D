@@ -64,6 +64,13 @@ Classification Report
 Accuracy Log,
 Classification Report
 
+### 📊 Performance Comparison Table
+
+<p align="center">
+  <img src="Results/table_results.png" alt="Comparison Table" width="600"/>
+</p>
+
+
 ## 📁 Project Structure
 
 ```
