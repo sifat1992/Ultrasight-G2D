@@ -96,6 +96,8 @@ README.md                       # You're reading this!
 
 
 ## 📂 Project Structure
+
+```
 ├── assets/                         # Folder containing sample dataset images
 │   ├── healthy_example1.png
 │   ├── abnormal_example1.png
@@ -123,6 +125,7 @@ README.md                       # You're reading this!
 └── requirements.txt/               # Required Python dependencies
 └── .gitignore                      # Specifies files and folders to be ignored by Git
 ├── README.md                       # Reading this!
+```
 
 References
 [1] G. Huang, Z. Liu, L. Van Der Maaten, and K. Weinberger, “Densely Connected Convolutional Networks,” Jan. 2018. Available: https://arxiv.org/pdf/1608.06993
