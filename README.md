@@ -122,7 +122,7 @@ Classification Report
 ## 👥 Authors
 
 - **Sifat Z. Karim** — Graduate Student, Mississippi State University  
-  📧 [sifatzinakarim1992@gmail.com](mailto:sifatzinakarim1992@gmail.com)
+  📧 [sifatzinakarim1992@gmail.com](mailto:sifatzinakarim1992@gmail.com)  
   🧑‍💻 GitHub: [@sifat1992](https://github.com/sifat1992)
 
 - **Sabyasachi Biswas** — Graduate Student, Mississippi State University  
