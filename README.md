@@ -116,6 +116,26 @@ Classification Report
 6. Persson, A.  
    “Aladdin Persson - YouTube.” [YouTube](https://www.youtube.com/@AladdinPersson)
 
+
+---
+
+## 👥 Authors
+
+- **Sifat Z. Karim** — Graduate Student, Mississippi State University  
+  📧 [szk9@msstate.edu](mailto:szk9@msstate.edu)  
+  🧑‍💻 GitHub: [@sifat1992](https://github.com/sifat1992)
+
+- **Sabyasachi Biswas** — Graduate Student, Mississippi State University  
+  📧 [coauthor@email.com](sabyasachi1406147gmail.com)
+
+---
+
+## 🤝 Contact
+
+For questions, suggestions, or collaboration opportunities, feel free to reach out!  
+I’m happy to receive feedback and open to connecting with fellow researchers.
+
+
 ---
 
 ## 💡 Notes
