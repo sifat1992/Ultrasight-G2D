@@ -59,7 +59,7 @@ Accuracy Log
 Classification Report
 ## 📁 Project Structure
 
-
+```
 assets/                         # Folder containing sample dataset images
 ├── healthy_example1.png
 ├── abnormal_example1.png
@@ -88,6 +88,8 @@ create_dataset.py               # Dataset loading and preprocessing
 requirements.txt                # Required Python dependencies
 .gitignore                      # Specifies files and folders to be ignored by Git
 README.md                       # You're reading this!
+```
+
 
 
 
