@@ -89,11 +89,13 @@ Classification Report
 ├── README.md                       # Reading this!
 ```
 
-References
+References:
+```
 [1] G. Huang, Z. Liu, L. Van Der Maaten, and K. Weinberger, “Densely Connected Convolutional Networks,” Jan. 2018. Available: https://arxiv.org/pdf/1608.06993
 [2] K. Simonyan and A. Zisserman, “VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION,” Apr. 2015. Available: https://arxiv.org/pdf/1409.1556
 [3] K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” arXiv.org, Dec. 10, 2015. https://arxiv.org/abs/1512.03385
 [4] S. Biswas, Cemre Omer Ayna, and A. C. Gurbuz, “PLFNets: Interpretable Complex Valued Parameterized Learnable Filters for Computationally Efficient RF Classification,” IEEE Transactions on Radar Systems, pp. 1–1, Jan. 2024, doi: https://doi.org/10.1109/trs.2024.3486183.
 [5} “Papers with Code - ImageNet Classification with Deep Convolutional Neural Networks,” paperswithcode.com. https://paperswithcode.com/paper/imagenet-classification-with-deep
 [6] A. Persson, “Aladdin Persson,” YouTube. https://www.youtube.com/@AladdinPersson (accessed May 19, 2025).
+```
 
