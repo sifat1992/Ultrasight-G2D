@@ -126,8 +126,7 @@ Classification Report
   🧑‍💻 GitHub: [@sifat1992](https://github.com/sifat1992)
 
 - **Sabyasachi Biswas** — Graduate Student, Mississippi State University  
-  📧 [sabyasachi1406147gmail.com](mailto:sabyasachi1406147gmail.com)
-  🧑‍💻 GitHub: [@sifat1992](https://github.com/sifat1992)
+  📧 [sabyasachi1406147gmail.com](mailto:sabyasachi1406147gmail.com).
   🧑‍💻 GitHub: [Sabyasachi1406147](https://github.com/Sabyasachi1406147)
 
 ---
