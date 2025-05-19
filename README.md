@@ -28,14 +28,14 @@ This project explores the integration of learnable 2D Gaussian filters with stan
 ## 🖼️ Sample Ultrasound Images
 
 <p align="center">
-  <img src="assets/sample1.jpg" width="250" />
-  <img src="assets/sample2.jpg" width="250" />
-  <img src="assets/sample3.jpg" width="250" />
+  <img src="assets/1.jpg" width="250" />
+  <img src="assets/2.jpg" width="250" />
+  <img src="assets/3.jpg" width="250" />
 </p>
 
 <p align="center">
-  <img src="assets/sample4.jpg" width="250" />
-  <img src="assets/sample5.jpg" width="250" />
+  <img src="assets/4.jpg" width="250" />
+  <img src="assets/5.jpg" width="250" />
 </p>
 
 📊 Results – Model Performance Summary
