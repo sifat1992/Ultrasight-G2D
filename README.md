@@ -20,8 +20,15 @@ Medical image analysis has been one of the most promising yet challenging task f
 ## 📄 Paper
 > *"Learnable 2D Gaussian Filters for Computationally Efficient Abdominal Organ Classification"*  
 > Presented at SPIE 2025 Conference on Real-Time Image Processing and Deep Learning  
-> [Read full paper on SPIE Digital Library](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13458/1345802/Learnable-2D-Gaussian-filters-for-computationally-efficient-abdominal-organ-classification/10.1117/12.3053222.short?fbclid=IwY2xjawKq26xleHRuA2FlbQIxMABicmlkETFMQXlxRGVoTWgwZFJYUzNoAR7j_TiujN_p-oawxEZoRIBuWqXsh3tJ4oiKOwkggW4Pnx0IGlcHGAR-CzLHaA_aem_xMUNTA7DGCaH9KSPK-d1wQ)
-> [Download Full Paper (PDF)](Results/SPIE2025_GaussFilters_Shaila.pdf)  [Uploaded for refence only]
+## 📄 Paper
+
+**"Learnable 2D Gaussian Filters for Computationally Efficient Abdominal Organ Classification"**  
+Presented at SPIE 2025 Conference on Real-Time Image Processing and Deep Learning  
+
+🔗 [Read full paper on SPIE Digital Library](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13458/1345802/Learnable-2D-Gaussian-filters-for-computationally-efficient-abdominal-organ-classification/10.1117/12.3053222.short?fbclid=IwY2xjawKq26xleHRuA2FlbQIxMABicmlkETFMQXlxRGVoTWgwZFJYUzNoAR7j_TiujN_p-oawxEZoRIBuWqXsh3tJ4oiKOwkggW4Pnx0IGlcHGAR-CzLHaA_aem_xMUNTA7DGCaH9KSPK-d1wQ)
+
+📥 [Download Full Paper (PDF)](Results/SPIE2025_GaussFilters_Shaila.pdf) *(Uploaded for reference only)*
+
 
 ## 🧪 Dataset
 - Custom curated ultrasound dataset (preprocessed and balanced).
