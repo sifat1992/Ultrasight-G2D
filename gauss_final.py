@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Created on Tue Jan 28 15:02:44 2025
 
@@ -55,9 +56,9 @@ class MyModel(nn.Module):
         super(MyModel, self).__init__()
 
         # Custom Gaussian Layer, incorporated in the architecture first before feeding it to the conv layer next.
-        self.gauss_layer = gauss.GaussNetLayer2D(32, (kernel_size, kernel_size))
+        #self.gauss_layer = gauss.GaussNetLayer2D(32, (kernel_size, kernel_size))
 
-        self.block1 = nn.Sequential(
+        self.block1 = nn.Sequential(gauss.GaussNetLayer2D(32, (kernel_size, kernel_size)),
             nn.Conv2d(32, 32, kernel_size=3),
             nn.MaxPool2d(kernel_size=3),
             nn.BatchNorm2d(32),
@@ -101,7 +102,7 @@ class MyModel(nn.Module):
         self.dropout = nn.Dropout(0.3)
 
     def forward(self, x):
-        x = self.gauss_layer(x)
+       # x = self.gauss_layer(x)
         x = self.block1(x)
         x = self.block2(x)
         x = self.block3(x)
@@ -141,6 +142,8 @@ test_loader = torch.utils.data.DataLoader(torch.utils.data.TensorDataset(x_test,
 ## Training loop starts here.......................................................................................
 train_losses = []
 val_losses = []
+best_accuracy = 0.0  # Track best accuracy
+best_model_path = "C:/Combined/Work/Gauss-2D/best_model.pth"
 
 
 for epoch in range(EPOCH):
@@ -187,8 +190,22 @@ for epoch in range(EPOCH):
     val_losses.append(val_loss)
     scheduler.step(val_loss)
 
-    accuracy = 100 * correct / total
-    print(f"Epoch [{epoch+1}/{EPOCH}], Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f}, Accuracy: {accuracy:.2f}%")
+    test_accuracy = 100 * correct / total
+    print(f"Epoch [{epoch+1}/{EPOCH}], Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f}, Accuracy: {test_accuracy:.2f}%")
+    
+    # **SAVE THE BEST MODEL**
+    if test_accuracy > best_accuracy:
+        best_accuracy = test_accuracy
+        torch.save(model.state_dict(), best_model_path)
+        model.load_state_dict(torch.load(best_model_path, weights_only=True))
+        print(f"New Best Model Saved! Accuracy: {best_accuracy:.2f}%")
+
+## LOAD THE BEST MODEL AFTER TRAINING
+model.load_state_dict(torch.load(best_model_path, weights_only=True))
+model.to(device)
+model.eval()
+print(f"Loaded the Best Model with Accuracy: {best_accuracy:.2f}%")
+
 
 ## Plot training and validation losses
 plt.figure(figsize=(10, 5))
