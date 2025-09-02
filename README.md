@@ -34,7 +34,7 @@ Presented at SPIE 2025 Conference on Real-Time Image Processing and Deep Learnin
 - Custom curated ultrasound dataset (preprocessed and balanced).
 - Not publicly available due to sensitivity and privacy constraints.
 - Contact for access if needed for research collaboration.
-## 🖼️ Sample Ultrasound Images
+##  Sample Ultrasound Images
 
 <p align="center">
   <img src="assets/1.jpg" width="250" />
