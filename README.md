@@ -49,38 +49,38 @@ Presented at SPIE 2025 Conference on Real-Time Image Processing and Deep Learnin
 
 📊 Results – Model Performance Summary
 
-🧠 AlexNet
+# AlexNet
 Accuracy Log,
 Classification Report
 
-🧠 Custom CNN
+# Custom CNN
 Accuracy Log,
 Classification Report
 
-🧠 DenseNet121
+# DenseNet121
 Accuracy Log,
 Classification Report
 
-🧠 GaussNet (Custom CNN + Learnable 2D Gaussian)
+# GaussNet (Custom CNN + Learnable 2D Gaussian)
 Accuracy Log,
 Classification Report
 
-🧠 ResNet50
+# ResNet50
 Accuracy Log,
 Classification Report
 
-🧠 VGG16
+# VGG16
 Accuracy Log,
 Classification Report
 
-### 📊 Performance Comparison Table
+###  Performance Comparison Table
 
 <p align="center">
   <img src="Results/table_results.png" alt="Comparison Table" width="600"/>
 </p>
 
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── assets/                         # Folder containing sample dataset images
