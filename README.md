@@ -87,18 +87,11 @@ Classification Report
 │   ├── healthy_example1.png
 │   ├── abnormal_example1.png
 ├── Results                         # Folder containing images of results
-│   ├── alexnet_acc.png
-│   ├── alexnet_class.png
-│   ├── custom_cnn_acc
-|   ├── custom_cnn_class
-|   ├── dense_acc
-|   ├── dense_acc
-|   ├── gauss_acc
-|   ├── gauss_class
-|   ├── res_acc
-|   ├── res_class
-|   ├── vgg_acc
-|   ├── vgg_class
+│   ├── filter_animation.gif
+│   ├── gaussian_sliding_filter.gif
+│   ├── gaussian_param_demo.gif
+|   ├── gaussian_3d_animation.gif
+|   ├── SPIE2025_GaussFilters_Shaila.pdf
 ├── alexnet.py                      # Training and evaluation using AlexNet
 ├── dense-121.py                    # Training and evaluation using DenseNet121
 ├── resnet50_paper_fif.py           # Training and evaluation using ResNet50
