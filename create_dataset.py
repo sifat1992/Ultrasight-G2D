@@ -18,12 +18,12 @@ for class_folder in os.listdir(main_folder_path):
         print(f"Current folder: {class_folder}")
         for img_name in os.listdir(class_folder_path):
             img_path = os.path.join(class_folder_path, img_name)
-            imgray = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)  # Fix for reading the image
+            imgray = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE) 
             
-            if imgray is not None:  # making sure that the image was read successfully
+            if imgray is not None: 
                 data_gray = cv2.resize(imgray, (256, 256))
-                label.append(int(i))  # just to Append the label, no assignment needed
-                data.append(data_gray)  # Append the resized grayscale image
+                label.append(int(i))  
+                data.append(data_gray)  
             else:
                 print(f"Error reading image: {img_name}")
     
@@ -38,3 +38,4 @@ hf.create_dataset('dataset_gray', data=data)
 hf.create_dataset('dataset_label', data=label)
 
 hf.close()
+
