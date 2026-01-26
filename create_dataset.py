@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 23 14:14:07 2022
-
-@author: sb3682
-"""
 
 import numpy as np
 import os
@@ -41,4 +36,5 @@ label = np.expand_dims(np.asarray(label),axis=-1)
 hf = h5py.File('C:/Combined/Work/normal_CNN_class/data.h5', 'w')
 hf.create_dataset('dataset_gray', data=data)
 hf.create_dataset('dataset_label', data=label)
+
 hf.close()
