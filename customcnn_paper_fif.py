@@ -41,8 +41,8 @@ y = np.asarray(data['dataset_label'])
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 ## Converting data to torch tensors
-x_train = torch.tensor(x_train[:, :, :, 0], dtype=torch.float32).unsqueeze(1)  # Remove last dimension and add channel dimension for grayscale
-x_test = torch.tensor(x_test[:, :, :, 0], dtype=torch.float32).unsqueeze(1)  # Remove last dimension and add channel dimension for grayscale
+x_train = torch.tensor(x_train[:, :, :, 0], dtype=torch.float32).unsqueeze(1)  
+x_test = torch.tensor(x_test[:, :, :, 0], dtype=torch.float32).unsqueeze(1) 
 
 y_train = torch.tensor(y_train, dtype=torch.long).squeeze()
 y_test = torch.tensor(y_test, dtype=torch.long).squeeze()
@@ -130,8 +130,7 @@ print(f"Total number of parameters: {num_params}")
 ## loss and optimizer, trying different set up with the optimizer like different learning rate
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(),  lr=8e-5, weight_decay=2e-3)
-###Optimizer with stable LR and weight decay
-##optimizer = optim.Adam(model.parameters(),  lr=1e-4, weight_decay=2e-3)
+
 
 
 ## Utilizing scheduler to get a stable output. It helps with Balanced patience (prevents premature drops)
@@ -144,7 +143,7 @@ scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
 train_losses = []
 val_losses = []
 best_accuracy = 0.0  # Track best accuracy
-best_model_path = "C:/Combined/Work/Gauss-2D/best_model.pth"  ## To save the path for the best model
+best_model_path = "C:/Combined/Work/Gauss-2D/best_model.pth" 
 
 
 ## The training loop starts here......................................................................................................
@@ -240,4 +239,5 @@ plt.show()
 ## Print Classification Report
 class_report = classification_report(y_true, y_pred, target_names=[f"Class {i}" for i in range(classes)])
 print("Classification Report:")
+
 print(class_report)
